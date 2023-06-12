@@ -16,3 +16,72 @@ img {
   display: block;
   max-width: 100%;
 }
+ul {
+  list-style-type: decimal;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+}
+a:hover {
+  color: #569ff7;
+}
+.switcher {
+  font-size: 23px;
+  border-radius: 10px;
+  min-width: 120px;
+  height: 50px;
+}
+.switcher:hover {
+  background-color: #ccc;
+  border: none;
+}
+.switcher:disabled {
+  border: none;
+}
+.datetime-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.date-button {
+  font-size: 23px;
+  border-radius: 10px;
+  min-width: 120px;
+  height: 40px;
+  background-color: #569ff7;
+  color: #fff;
+  border: none;
+}
+.date-button:disabled {
+  background-color: #ccc;
+}
+input {
+  height: 40px;
+  font-size: 23px;
+  width: 200px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.timer {
+  display: flex;
+  gap: 19px;
+  margin-top: 20px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.value {
+  text-align: center;
+  line-height: 1.2;
+  font-size: 34px;
+  font-weight: 400;
+}
+.label {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+}
