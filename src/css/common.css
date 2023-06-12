@@ -28,16 +28,14 @@ a:hover {
 }
 .switcher {
   font-size: 23px;
-  border-radius: 10px;
+  border-radius: 5px;
   min-width: 120px;
   height: 50px;
+  border: hidden;
+  background-color: #ccc;
 }
 .switcher:hover {
-  background-color: #ccc;
-  border: none;
-}
-.switcher:disabled {
-  border: none;
+  background-color: #569ff7;
 }
 .datetime-wrapper {
   display: flex;
