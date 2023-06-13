@@ -11,7 +11,6 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
 img {
   display: block;
   max-width: 100%;
@@ -26,7 +25,8 @@ a {
 a:hover {
   color: #569ff7;
 }
-.switcher {
+/*task 1*/
+.switcher-button {
   font-size: 23px;
   border-radius: 5px;
   min-width: 120px;
@@ -34,9 +34,10 @@ a:hover {
   border: hidden;
   background-color: #ccc;
 }
-.switcher:hover {
+.switcher-button:hover {
   background-color: #569ff7;
 }
+/*task 2*/
 .datetime-wrapper {
   display: flex;
   justify-content: center;
@@ -82,4 +83,43 @@ input {
   text-align: center;
   font-size: 11px;
   font-weight: 500;
+}
+/*task 3*/
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 20px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+input[type='number'] {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+input:required {
+  border-color: #da172b;
+}
+input:valid {
+  border-color: #11a934;
+}
+.submit-button {
+  width: 200px;
+  padding: 10px 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  background-color: #569ff7;
+}
+.submit-button:hover {
+  background-color: #0069d9;
 }
